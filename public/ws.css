@@ -1,0 +1,15 @@
+#roomContainer{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: beige;
+    float: left;
+    height: 100%;
+    width: 15%;
+    border-right: 3px solid burlywood;
+    border-radius: 10px;
+  }
+  #conversationContainer{
+    float: left;
+    margin-left: 2%;
+    width: 75%;
+    
+  }

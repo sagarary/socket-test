@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WS Chat</title>
+  <link rel="stylesheet" href="ws.css">
+</head>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script src="wsClient.js"></script>
+<body>
+  <div id="roomContainer">
+    <b>ROOMS</b>
+    <div id="rooms"></div>
+  </div>
+  <div id="conversationContainer">
+    <div id="conversation"></div>
+    <input id="data" style="width:200px;" />
+    <input type="button" id="datasend" value="send" />
+  </div>  
+</body>
+</html>
